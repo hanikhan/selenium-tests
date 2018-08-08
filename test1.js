@@ -10,7 +10,7 @@ driver.get('https://www.facebook.com');
 driver.get('https://www.browserstack.com');
 driver.navigate().back();
 //Page should go forward
-driver.navigate().back();
+driver.navigate().forward();
 driver.getTitle().then(function (websiteTitle) {
     console.log(websiteTitle);
 });
